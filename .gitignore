@@ -1,0 +1,51 @@
+# Ignorar carpetas del entorno de desarrollo (XAMPP, etc.)
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar configuraciones de entorno local
+.env
+.env.*
+.vscode/
+.idea/
+
+# Ignorar caché y logs de CodeIgniter
+writable/cache/*
+!writable/cache/index.html
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+
+# Ignorar archivos del sistema operativo
+*.~*
+
+# Ignorar bases de datos locales si se guardan en el proyecto (no recomendado)
+*.sql
+*.sqlite
+
+# Ignorar vendor si estás usando Composer (recomendado que no lo ignores si compartís el proyecto completo)
+vendor/
+
+# Ignorar node_modules si usás npm para assets (por ejemplo con Laravel Mix o Vite)
+node_modules/
+
+# Ignorar archivos de builds o de front-end
+public/build/
+public/js/
+public/css/
+public/mix-manifest.json
+public/hot
+
+# Si usás Git en Windows, a veces aparecen estos
+$RECYCLE.BIN/
+
+# Ignorar backups automáticos de editores
+*.bak
+*.orig
+*.old
