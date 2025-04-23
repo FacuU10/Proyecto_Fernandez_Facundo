@@ -1,4 +1,12 @@
 /*
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    background-color: transparent;
+}
+/*
 p{
     font-family: verdana;
     text-align: justufy;

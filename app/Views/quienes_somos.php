@@ -9,6 +9,7 @@
         <div class="col-md-12">
             <h2>Nuestros Objetivos y Trayectoria</h2>
             <p class="lead">En Pacú Iberá, nuestro objetivo principal es llevar a tu mesa pescados frescos de la más alta calidad, directamente desde las aguas del Iberá.</p>
+            <p>Somos Pacú Iberá, dedicados a la venta de pescados frescos y de excelente calidad, con especialización en pacú. Contamos con más de 10 años de experiencia en el rubro, promoviendo prácticas sostenibles que respetan el equilibrio del ecosistema del río.</p>
             <p>Con más de 10 años de experiencia, hemos perfeccionado nuestras técnicas de pesca y conservación, siempre respetando el medio ambiente y promoviendo la pesca sostenible. Creemos firmemente en la importancia de mantener el equilibrio ecológico de nuestros ríos.</p>
             <p>Nuestra trayectoria se basa en la confianza de nuestros clientes y en el compromiso con la calidad y la frescura de cada producto que ofrecemos.</p>
         </div>
