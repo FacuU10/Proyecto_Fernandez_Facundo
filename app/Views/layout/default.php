@@ -43,12 +43,13 @@
                 </div>
             </div>
         </nav>
+        
     </header>
     <main class="container mt-4"> <!-- Usa el contenedor de Bootstrap y añade margen superior -->
         <!-- Aquí se insertará el contenido específico de cada página -->
         <?= $this->renderSection('content') ?>
     </main>
-    <div class="b-example-divider"></div>
+
     <footer class="container mt-5 py-3 bg-light text-center"> <!-- Footer con clases Bootstrap -->
         <p>&copy; <?= date('Y') ?> Pacú Iberá. Todos los derechos reservados.</p>
     </footer>
