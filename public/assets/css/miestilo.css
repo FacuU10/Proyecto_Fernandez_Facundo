@@ -1,3 +1,11 @@
+.card-img-top {
+    height: 250px; 
+    object-fit: cover;
+}
+.card {
+    height: 100%;
+}
+
 /*
 .carousel-inner img {
     display: block;

@@ -10,14 +10,17 @@
             <h2>Detalles de Entrega y Envío</h2>
             <h4>Tipos de Entrega</h4>
             <ul class="list-group list-group-flush mb-3">
-                <li class="list-group-item">Retiro en nuestro local (previa coordinación).</li>
-                <li class="list-group-item">Envío a domicilio en [Tu Ciudad/Zona].</li>
+                <li class="list-group-item"><strong>Retiro en nuestros locales:</strong></li>
+                <li class="list-group-item">Corrientes Capital(Lavalle 1223)</li>
+                <li class="list-group-item">San Miguel Ctes (Sarmiento 3421)</li>
+                <li class="list-group-item">Paso de los Libres Ctes (Colon 1025)</li>
+                <li class="list-group-item"><strong>Envío a domicilio comprando online o por whatsapp.</strong></li>
             </ul>
 
             <h4>Formas de Envío</h4>
-            <p>Realizamos envíos los días [Días de envío, ej: Martes y Viernes] en el horario de [Horario de envío, ej: 9:00 a 13:00 hs].</p>
+            <p>Realizamos envíos de Lunes a Viernes en el horario de 9:00 a 13:00 hs.</p>
             <p>El costo de envío varía según la zona (Consultar tarifas).</p>
-            <p>Para pedidos superiores a [Monto para envío gratis, ej: $5000], el envío es gratuito dentro de [Zona de envío gratis].</p>
+            <p>Para pedidos superiores a $12.000, el envío es gratuito en zonas a menos de 5km de los locales.</p>
         </div>
 
         <div class="col-md-6 mb-4">
