@@ -3,46 +3,73 @@
 <?= $this->section('title') ?><?= esc($page_title) ?><?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
+<div class="text-center mb-5">
     <h1 class="mb-4">Comercialización</h1>
+    <p class="lead">Conocé cómo recibir tus productos, los medios de pago disponibles y toda la información útil para
+        facilitar tu compra.</p>
+</div>
 
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <h2>Detalles de Entrega y Envío</h2>
-            <h4>Tipos de Entrega</h4>
-            <ul class="list-group list-group-flush mb-3">
-                <li class="list-group-item"><strong>Retiro en nuestros locales:</strong></li>
-                <li class="list-group-item">Corrientes Capital(Lavalle 1223)</li>
-                <li class="list-group-item">San Miguel Ctes (Sarmiento 3421)</li>
-                <li class="list-group-item">Paso de los Libres Ctes (Colon 1025)</li>
-                <li class="list-group-item"><strong>Envío a domicilio comprando online o por whatsapp.</strong></li>
-            </ul>
+<div class="row justify-content-center">
+    <div class="col-md-5 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h3 class="card-title text-primary">Entrega y Envío</h3>
 
-            <h4>Formas de Envío</h4>
-            <p>Realizamos envíos de Lunes a Viernes en el horario de 9:00 a 13:00 hs.</p>
-            <p>El costo de envío varía según la zona (Consultar tarifas).</p>
-            <p>Para pedidos superiores a $12.000, el envío es gratuito en zonas a menos de 5km de los locales.</p>
-        </div>
+                <h5 class="mt-4">Tipos de Entrega</h5>
+                <ul class="list-unstyled">
+                    <li><strong>Retiro en nuestros locales:</strong></li>
+                    <li>- Corrientes Capital (Lavalle 1223)</li>
+                    <li>- San Miguel, Ctes (Sarmiento 3421)</li>
+                    <li>- Paso de los Libres, Ctes (Colón 1025)</li>
+                    <li class="mt-2"><strong>Envío a domicilio:</strong> comprando online o por WhatsApp.</li>
+                </ul>
 
-        <div class="col-md-6 mb-4">
-            <h2>Formas de Pago</h2>
-            <p>Aceptamos los siguientes métodos de pago:</p>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Efectivo (al retirar o contra entrega).</li>
-                <li class="list-group-item">Transferencia Bancaria (solicitar datos).</li>
-                <li class="list-group-item">Mercado Pago (tarjetas de crédito/débito, dinero en cuenta).</li>
-                <!-- Añade otros si aplica -->
-            </ul>
+                <h5 class="mt-4">Formas de Envío</h5>
+                <ul class="list-unstyled">
+                    <li>- Envíos de Lunes a Viernes, de 9:00 a 13:00 hs.</li>
+                    <li>- Costo variable según zona (consultar).</li>
+                    <li>- Envío gratuito en zonas a menos de 5 km por compras superiores a $12.000.</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="row mt-3">
-        <div class="col-md-12">
-            <h2>Información Adicional de Utilidad</h2>
-            <ul>
-                <li><strong>Conservación:</strong> Recomendamos mantener el pescado refrigerado y consumir dentro de las 48 horas posteriores a la compra, o congelar inmediatamente.</li>
-                <li><strong>Pedidos Mínimos:</strong> No hay pedido mínimo para retiro en local. Para envíos a domicilio, el pedido mínimo es de [Monto mínimo, ej: $1500].</li>
-                <li><strong>Cómo Pedir:</strong> Puedes realizar tu pedido a través de nuestro WhatsApp [Número de WhatsApp] o por teléfono al [Número de Teléfono].</li>
-            </ul>
+    <div class="col-md-5 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h3 class="card-title text-primary">Formas de Pago</h3>
+                <p class="mt-3">Aceptamos múltiples métodos de pago para tu comodidad:</p>
+                <ul class="list-unstyled">
+                    <li>- Efectivo (al retirar o contra entrega).</li>
+                    <li>- Transferencia bancaria (solicitá nuestros datos).</li>
+                    <li>- Mercado Pago (tarjetas, dinero en cuenta, QR).</li>
+                    <!-- Agregá otros medios si corresponde -->
+                </ul>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-10">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title text-primary text-center">Información Útil</h3>
+                <ul class="mt-3">
+                    <li><strong>Conservación:</strong> Mantené refrigerado el pescado y consumilo dentro de las 48
+                        horas, o congelalo inmediatamente.</li>
+                    <li><strong>Pedidos Mínimos:</strong> No hay mínimo para retiro en local. Para envío a domicilio, el
+                        mínimo es de <strong>$8.000</strong>.</li>
+                    <li>
+                        <strong>Cómo Pedir:</strong> Podés hacerlo por WhatsApp al <strong>37943456789</strong>
+                        o a través de nuestro
+                        <a href="https://www.instagram.com/pacuibera_pescaderia/" target="_blank">
+                            <i class="bi bi-instagram"></i> <strong>Instagram</strong>
+                        </a>.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <?= $this->endSection() ?>

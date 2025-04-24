@@ -13,6 +13,9 @@
     <!-- Tu CSS personalizado (opcional, para sobrescribir o añadir estilos) -->
     <link href="<?= base_url('public/assets/css/miestilo.css') ?>" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
 </head>
 
 <body>
