@@ -5,6 +5,10 @@
 .card {
     height: 100%;
 }
+.footer-logo {
+    width: 150px; 
+    height: auto;
+}
 
 /*
 .carousel-inner img {
