@@ -22,19 +22,20 @@
             <!-- Ejemplo de cómo podrías listar miembros del equipo -->
             <div class="row">
                 <div class="col-md-4 mb-3">
+                    
                     <div class="card">
-                        <!-- <img src="<?= base_url('assets/images/foto_miembro1.jpg') ?>" class="card-img-top" alt="Miembro 1"> -->
+                        <img src="<?= base_url('public/assets/img/foto_miembro1.jpg') ?>" class="card-img-top" alt="Miembro 1">
                         <div class="card-body">
-                            <h5 class="card-title">Juan Pérez</h5>
+                            <h5 class="card-title">María Gómez</h5>
                             <p class="card-text">Encargado de Logística y Pesca.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <!-- <img src="..." class="card-img-top" alt="Miembro 2"> -->
+                    <img src="<?= base_url('public/assets/img/foto_miembro2.jpg') ?>" class="card-img-top" alt="Miembro 1">
                         <div class="card-body">
-                            <h5 class="card-title">María Gómez</h5>
+                            <h5 class="card-title">Juan Pérez</h5>
                             <p class="card-text">Atención al Cliente y Ventas.</p>
                         </div>
                     </div>
