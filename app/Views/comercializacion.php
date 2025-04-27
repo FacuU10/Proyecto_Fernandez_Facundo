@@ -64,7 +64,7 @@
                         <strong>Cómo Pedir:</strong> Podés hacerlo por WhatsApp al <strong>37943456789</strong>
                         o a través de nuestro
                         <a href="https://www.instagram.com/pacuibera_pescaderia/" target="_blank">
-                            <i class="bi bi-instagram"></i> <strong>Instagram</strong>
+                            <i class="bi bi-instagram"></i> <strong>pacuibera_pescaderia</strong>
                         </a>.
                     </li>
                 </ul>

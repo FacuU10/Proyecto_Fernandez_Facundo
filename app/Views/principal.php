@@ -11,7 +11,7 @@
 
         <!-- Texto de presentación -->
         <div class="col-12 col-lg-6 text-center text-lg-start">
-            <h1 class="display-5 fw-bold lh-1 mb-3">
+            <h1 class="display-5 fw-bold lh-1 mb-3" style="color: #2cbe34;">
                 <strong>Pacú Iberá</strong>, ofrecemos <strong>calidad</strong>
             </h1>
             <p class="lead">
@@ -21,9 +21,9 @@
                 Contamos con sucursales en toda la provincia de Corrientes, acercando calidad y sabor a tu mesa.
             </p>
             <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
-                <button type="button" class="btn btn-primary btn-lg px-4"
+                <button type="button" class="btn btn-success btn-lg px-4 custom-btn-green"
                     onclick="window.location.href = '<?= site_url(); ?>comercializacion';">Productos</button>
-                <button type="button" class="btn btn-info btn-lg px-4"
+                <button type="button" class="btn btn-outline-success btn-lg px-4 custom-btn-green-outline"
                     onclick="window.location.href = '<?= site_url(); ?>quienes-somos';">+Más</button>
             </div>
         </div>
@@ -36,7 +36,5 @@
 
     </div>
 </div>
-
-
 
 <?= $this->endSection() ?>

@@ -1,48 +1,122 @@
-.card-img-top {
-    height: 250px; 
-    object-fit: cover;
+/* Navbar personalizado en verde */
+.custom-navbar {
+    background-color: #2cbe34; /* Verde parecido al del logo */
 }
+
+/* Estilo de los enlaces en el navbar */
+.custom-navbar a {
+    color: white;
+}
+
+/* Efecto hover en los enlaces del navbar */
+.custom-navbar a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Estilo de las tarjetas */
 .card {
     height: 100%;
+    border: 2px solid #2cbe34; /* Borde verde para las tarjetas */
 }
+
+/* Imagen de la tarjeta */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Estilo SOLO de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #2cbe34; /* Verde para títulos */
+}
+
+/* Fondo personalizado para la sección de contenido */
+.container {
+    background-color: #f4f9f4; /* Fondo claro que resalta el verde */
+}
+
+/* Estilo de los botones personalizados */
+.btn-custom {
+    background-color: #2cbe34;
+    border-color: #2cbe34;
+    color: white;
+}
+
+/* Efecto hover para los botones personalizados */
+.btn-custom:hover {
+    background-color: #279a28; /* Un verde un poco más oscuro al hacer hover */
+    border-color: #279a28;
+}
+
+/* Estilo de los íconos dentro de las tarjetas */
+.card-text i {
+    color: #2cbe34; /* Verde para los íconos */
+}
+
+/* Personalización del footer */
+.footer-custom {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Logo en el footer */
 .footer-logo {
-    width: 150px; 
+    width: 150px;
     height: auto;
 }
 
-/*
-.carousel-inner img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    background-color: transparent;
-}
-/*
-p{
-    font-family: verdana;
-    text-align: justufy;
-    color: red;
-    font-size:24 px;
-    font-style: italic;
-    font-weight: bold;
+/* Botones del footer */
+.footer-custom .btn-custom {
+    background-color: #2cbe34;
+    color: white;
 }
 
-.mi-parrafo{
-    font-style: bold italic;
-    text-align: center;
-}
-.mi-div{
-    background-color: black;
-    
-}
-body {
-    background-color: lightblue;
-    }
+/* -------- Estilos extra para ajustar Bootstrap -------- */
 
-h1 { color: white;
-    font-weight: bold;
-    text-align: center;
-    }
+/* Bordes "primary" en verde */
+.border-primary {
+    border-color: #2cbe34 !important;
+}
 
-*/
+/* Botones "primary" en verde */
+.btn-primary {
+    background-color: #2cbe34 !important;
+    border-color: #2cbe34 !important;
+    color: #fff !important;
+}
+
+/* Hover para botones "primary" */
+.btn-primary:hover {
+    background-color: #279a28 !important;
+    border-color: #279a28 !important;
+    color: #fff !important;
+}
+/* Transición suave en botón */
+.accordion-button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Fondo y color del botón activo */
+.accordion-button:not(.collapsed) {
+    background-color: #d4f5d6 !important; /* verde clarito */
+    color: #000 !important; /* texto negro */
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+/* Borde del botón */
+.accordion-button {
+    border: 1px solid #a8e6aa !important;
+}
+
+/* Hover en los botones colapsados */
+.accordion-button.collapsed:hover {
+    background-color: #e9fbe9 !important;
+}
+
+/* Transición suave en el cuerpo del acordeón */
+.accordion-collapse {
+    transition: height 0.35s ease;
+}
