@@ -23,6 +23,40 @@
     </div>
 
     <div class="row mb-5">
+        <div class="col-md-10 offset-md-1 text-center">
+
+            <div id="carouselPacu" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 600px;">
+                <div class="carousel-inner rounded shadow">
+
+                    <div class="carousel-item active">
+                        <img src="<?= base_url('public/assets/img/pacu.jpg') ?>" class="d-block w-100 rounded"
+                            alt="Pacú fresco">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= base_url('public/assets/img/pacu2.jpg') ?>" class="d-block w-100 rounded"
+                            alt="Pacú cocinado">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= base_url('public/assets/img/pacu3.jpg') ?>" class="d-block w-100 rounded"
+                            alt="Preparaciones de Pacú">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPacu" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPacu" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mb-5">
         <div class="col-md-10 offset-md-1">
             <h2>Nuestro Equipo</h2>
             <p class="mb-4">Somos un equipo apasionado por la pesca y la naturaleza, comprometidos con brindarte el
