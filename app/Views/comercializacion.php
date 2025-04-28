@@ -1,4 +1,4 @@
-<?= $this->extend('layout/default') ?>
+<?= $this->extend('layout/plantilla') ?>
 
 <?= $this->section('title') ?><?= esc($page_title) ?><?= $this->endSection() ?>
 
