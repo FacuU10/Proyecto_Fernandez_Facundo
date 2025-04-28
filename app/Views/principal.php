@@ -17,12 +17,14 @@
             <p class="lead">
                 Nos dedicamos a la piscicultura sustentable, criando pacú con responsabilidad y compromiso
                 ambiental.<br>
-                Así contribuimos a preservar las especies del río y ofrecemos un <strong>producto local, fresco y confiable.</strong><br>
+                Así contribuimos a preservar las especies del río y ofrecemos un <strong>producto local, fresco y
+                    confiable.</strong><br>
                 Contamos con sucursales en toda la provincia de Corrientes, acercando calidad y sabor a tu mesa.
             </p>
             <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
                 <button type="button" class="btn btn-success btn-lg px-4 custom-btn-green"
-                    onclick="window.location.href = '<?= site_url(); ?>comercializacion';">Productos</button>
+                    onclick="window.location.href = '<?= site_url(); ?>en_construccion';">Productos</button>
+
                 <button type="button" class="btn btn-outline-success btn-lg px-4 custom-btn-green-outline"
                     onclick="window.location.href = '<?= site_url(); ?>quienes-somos';">Conocenos Más</button>
             </div>

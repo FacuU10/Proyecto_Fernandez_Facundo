@@ -39,11 +39,10 @@ class Home extends BaseController
         return view('terminos_y_usos', $data); // Carga la vista terminos_y_usos.php
     }
 
-    // Puedes mantener o eliminar el método plantilla si ya no lo necesitas
-    /*
-    public function plantilla(): string
-    {
-        return view('plantilla');
-    }
-    */
+    public function enConstruccion()
+{
+    $data['page_title'] = 'Página en Construcción';
+    return view('en_construccion', $data);
+}
+
 }
