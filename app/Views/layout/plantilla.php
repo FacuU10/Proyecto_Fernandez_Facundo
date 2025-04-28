@@ -56,7 +56,7 @@
 
     <footer class="container footer-custom">
         <?php if (uri_string() != ''): ?>
-        <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="Logo Pacú Iberá" class="footer-logo mb-2">
+        <img src="<?= base_url('public/assets/img/logo-transparente.png') ?>" alt="Logo Pacú Iberá" class="footer-logo mb-2">
         <?php endif; ?>
         <p>&copy; <?= date('Y') ?> Pacú Iberá. Todos los derechos reservados.</p>
     </footer>

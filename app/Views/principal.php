@@ -30,7 +30,7 @@
 
         <!-- Imagen del logo -->
         <div class="col-12 col-lg-6 text-center">
-            <img src="public/assets/img/logo.png" class="img-fluid mx-auto d-block" alt="Logo Pacú Iberá"
+            <img src="public/assets/img/logo-transparente.png" class="img-fluid mx-auto d-block" alt="Logo Pacú Iberá"
                 style="max-width: 300px;" loading="lazy">
         </div>
 
