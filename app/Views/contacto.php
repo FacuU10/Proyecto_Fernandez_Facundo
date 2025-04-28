@@ -51,7 +51,9 @@
                             <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
                         </div>
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-block">Enviar Consulta</button>
+                            <button type="button" class="btn btn-primary btn-block"
+                                onclick="window.location.href='<?= site_url('en_construccion') ?>'">Enviar
+                                Consulta</button>
                         </div>
                     </form>
 

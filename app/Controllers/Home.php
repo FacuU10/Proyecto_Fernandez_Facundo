@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        // Pasamos el título específico para esta página (opcional)
+        
         $data['page_title'] = 'Inicio - Pacú Iberá';
         return view('principal', $data); // Carga la vista principal.php
     }
@@ -40,9 +40,10 @@ class Home extends BaseController
     }
 
     public function enConstruccion()
-{
+    {
     $data['page_title'] = 'Página en Construcción';
     return view('en_construccion', $data);
-}
+    }
+
 
 }
