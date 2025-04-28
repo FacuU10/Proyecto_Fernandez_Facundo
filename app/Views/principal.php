@@ -17,14 +17,14 @@
             <p class="lead">
                 Nos dedicamos a la piscicultura sustentable, criando pacú con responsabilidad y compromiso
                 ambiental.<br>
-                Así contribuimos a preservar las especies del río y ofrecemos un producto local, fresco y confiable.<br>
+                Así contribuimos a preservar las especies del río y ofrecemos un <strong>producto local, fresco y confiable.</strong><br>
                 Contamos con sucursales en toda la provincia de Corrientes, acercando calidad y sabor a tu mesa.
             </p>
             <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
                 <button type="button" class="btn btn-success btn-lg px-4 custom-btn-green"
                     onclick="window.location.href = '<?= site_url(); ?>comercializacion';">Productos</button>
                 <button type="button" class="btn btn-outline-success btn-lg px-4 custom-btn-green-outline"
-                    onclick="window.location.href = '<?= site_url(); ?>quienes-somos';">+Más</button>
+                    onclick="window.location.href = '<?= site_url(); ?>quienes-somos';">Conocenos Más</button>
             </div>
         </div>
 
@@ -41,53 +41,55 @@
     <!-- Agrega un margen superior general -->
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
-        <!-- Tarjeta 1 -->
+        <!-- Tarjeta 1: Origen Controlado -->
         <div class="col">
             <div class="card h-100 border-3" style="border-color: #2cbe34; background-color: #ffffff; color: #000000;">
-                <img src="<?= base_url('public/assets/img/foto1.jpg') ?>" class="card-img-top" alt="Imagen 1">
+                <img src="<?= base_url('public/assets/img/foto1.jpg') ?>" class="card-img-top" alt="Alevines de Pacú">
                 <div class="card-body">
-                    <h5 class="card-title">Desde alevines a tu mesa</h5>
-                    <p class="card-text">En nuestro centro comenzamos el trabajo desde las primeras etapas de vida de
-                        los peces. Criamos alevines(crias de pez) de pacú, proporcionándoles un ambiente controlado y
-                        seguro que
-                        favorece su desarrollo. Les brindamos una alimentación adecuada según su tamaño y necesidades,
-                        asegurando su crecimiento saludable. Cada etapa del cuidado es fundamental .</p>
+                    <h5 class="card-title fw-bold" style="color: #1a7d20;">Calidad Controlada desde el Origen</h5>
+                    <p class="card-text">
+                        Criamos nuestros pacúes desde alevines en un ambiente óptimo. Este cuidado temprano asegura un
+                        producto final saludable, trazable y de confianza.
+                    </p>
                 </div>
-                <div class="card-footer" style="background-color: #ffffff;">
-
+                <div class="card-footer" style="background-color: #ffffff; border-top: none;">
+                    <!-- Puedes dejar el footer vacío o añadir un pequeño detalle si lo deseas -->
                 </div>
             </div>
         </div>
 
-        <!-- Tarjeta 2 -->
+        <!-- Tarjeta 2: Nutrición Superior -->
         <div class="col">
             <div class="card h-100 border-3" style="border-color: #2cbe34; background-color: #ffffff; color: #000000;">
-                <img src="<?= base_url('public/assets/img/foto2.jpg') ?>" class="card-img-top" alt="Imagen 2">
+                <img src="<?= base_url('public/assets/img/foto2.jpg') ?>" class="card-img-top"
+                    alt="Alimentación de Pacú">
                 <div class="card-body">
-                    <h5 class="card-title">Nutrición balanceada para un desarrollo óptimo</h5>
-                    <p class="card-text">Utilizamos alimentos balanceados de alta calidad que aseguran un
-                        crecimiento sano. Una correcta nutrición es clave
-                        para obtener ejemplares fuertes.</p>
+                    <h5 class="card-title fw-bold" style="color: #1a7d20;">Nutrición Óptima para un Sabor Superior</h5>
+                    <p class="card-text">
+                        Utilizamos alimento balanceado de primera calidad para un crecimiento saludable. El resultado:
+                        un pacú más nutritivo y con un sabor excepcional en tu mesa.
+                    </p>
                 </div>
-                <div class="card-footer" style="background-color: #ffffff;">
-
+                <div class="card-footer" style="background-color: #ffffff; border-top: none;">
+                    <!-- Footer -->
                 </div>
             </div>
         </div>
 
-        <!-- Tarjeta 3 -->
+        <!-- Tarjeta 3: Procesamiento Experto -->
         <div class="col">
             <div class="card h-100 border-3" style="border-color: #2cbe34; background-color: #ffffff; color: #000000;">
-                <img src="<?= base_url('public/assets/img/foto3.jpg') ?>" class="card-img-top" alt="Imagen 3">
+                <img src="<?= base_url('public/assets/img/foto3.jpg') ?>" class="card-img-top"
+                    alt="Filet de Pacú Desespinado">
                 <div class="card-body">
-                    <h5 class="card-title">Proceso de elaboración en nuestro frigorífico</h5>
-                    <p class="card-text">En nuestro frigorífico, procesamos los pacúes cuidadosamente para garantizar
-                        productos de alta calidad. Según el tamaño del ejemplar, elaboramos diferentes cortes, como el
-                        filet despespinado que se observa en la imagen. Cada pieza es trabajada de forma higiénica y
-                        precisa para ofrecer al consumidor un producto sano, nutritivo y listo para su consumo.</p>
+                    <h5 class="card-title fw-bold" style="color: #1a7d20;">Procesado con Precisión y Cuidado</h5>
+                    <p class="card-text">
+                        Aplicamos rigurosos estándares de higiene en nuestro frigorífico. Disfruta de cortes prácticos y
+                        deliciosos, como el filet despinado, garantizando frescura y calidad.
+                    </p>
                 </div>
-                <div class="card-footer" style="background-color: #ffffff;">
-
+                <div class="card-footer" style="background-color: #ffffff; border-top: none;">
+                    <!-- Footer -->
                 </div>
             </div>
         </div>
@@ -95,44 +97,5 @@
     </div>
 </div>
 
-
-<!-- Carrusel de imágenes 
-<div id="carouselPacus" class="carousel slide mt-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-
-        <div class="carousel-item active">
-            <img src="<?= base_url('public/assets/img/foto1.jpg') ?>" class="d-block w-100" alt="Imagen 1"
-                style="max-height: 400px; object-fit: cover;">
-        </div>
-
-        <div class="carousel-item">
-            <img src="<?= base_url('public/assets/img/foto2.jpg') ?>" class="d-block w-100" alt="Imagen 2"
-                style="max-height: 400px; object-fit: cover;">
-        </div>
-
-        <div class="carousel-item">
-            <img src="<?= base_url('public/assets/img/foto3.jpg') ?>" class="d-block w-100" alt="Imagen 3"
-                style="max-height: 400px; object-fit: cover;">
-        </div>
-
-    </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPacus" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselPacus" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-    </button>
-
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselPacus" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Imagen 1"></button>
-        <button type="button" data-bs-target="#carouselPacus" data-bs-slide-to="1" aria-label="Imagen 2"></button>
-        <button type="button" data-bs-target="#carouselPacus" data-bs-slide-to="2" aria-label="Imagen 3"></button>
-    </div>
-</div>
--->
 
 <?= $this->endSection() ?>
