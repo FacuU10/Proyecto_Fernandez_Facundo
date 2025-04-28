@@ -50,7 +50,7 @@
             </h2>
             <div id="collapseDos" class="accordion-collapse collapse" aria-labelledby="headingDos" data-bs-parent="#terminosAccordion">
                 <div class="accordion-body">
-                    <p><strong>1. Responsable del Tratamiento:</strong> Pacú Iberá, con domicilio en <strong>Santa Fé 1234, Corrientes Capital</strong> y CUIT [Número de CUIT], es el responsable del tratamiento de los datos personales recabados a través de este sitio web. Correo electrónico de contacto: <strong><a href="mailto:wilsonSeverino@gmail.com">wilsonSeverino@gmail.com</a></strong>.</p>
+                    <p><strong>1. Responsable del Tratamiento:</strong> Pacú Iberá, con domicilio en <strong>Santa Fé 1234, Corrientes Capital</strong> y CUIT 20-27456789-4, es el responsable del tratamiento de los datos personales recabados a través de este sitio web. Correo electrónico de contacto: <strong><a href="mailto:wilsonSeverino@gmail.com">wilsonSeverino@gmail.com</a></strong>.</p>
 
                     <p><strong>2. Finalidad del Tratamiento:</strong> Los datos personales que nos proporciones (nombre, email, teléfono, dirección, etc.) serán tratados con las siguientes finalidades:</p>
                     <ul>
@@ -135,7 +135,7 @@
 
                     <p><strong>5. Entrega y Envío:</strong></p>
                     <ul>
-                        <li><strong>Retiro en Local:</strong> El cliente puede retirar su pedido sin costo adicional en nuestras sucursales habilitadas ([Dirección Local 1], [Dirección Local 2], etc.) durante el horario de atención (Lunes a Viernes de 8:00 a 17:00 hs).</li>
+                        <li><strong>Retiro en Local:</strong> El cliente puede retirar su pedido sin costo adicional en nuestras sucursales habilitadas durante el horario de atención (Lunes a Viernes de 8:00 a 17:00 hs).</li>
                         <li><strong>Envío a Domicilio:</strong>
                             <ul>
                                 <li>Los envíos se realizan de Lunes a Viernes en la franja horaria de 9:00 a 13:00 hs (o la que definas).</li>
