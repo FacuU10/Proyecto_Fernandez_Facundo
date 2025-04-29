@@ -14,6 +14,46 @@
     text-decoration: underline;
 }
 
+/* Estilos para la barra de navegación personalizada */
+.custom-navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* Ajusta el padding si es necesario */
+    border-radius: 5px; /* Bordes redondeados para un look más suave */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el hover */
+    text-decoration: none; /* Quita el subrayado por defecto si lo hubiera */
+    margin: 0 0.25rem; /* Pequeño margen entre elementos */
+}
+
+/* Efecto hover para los enlaces de la barra de navegación */
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .nav-link:focus { /* :focus es importante para accesibilidad */
+    color: #ffffff; /* Puedes cambiar este color si tu texto original no es blanco */
+    background-color: rgba(255, 255, 255, 0.15); /* Un fondo semitransparente sutil */
+    text-decoration: none; /* Asegura que no aparezca el subrayado en hover */
+}
+
+/* Estilo para el enlace activo (si usas clases 'active' en tus li) */
+.custom-navbar .navbar-nav .nav-item.active .nav-link {
+    background-color: rgba(255, 255, 255, 0.25); /* Un fondo ligeramente más opaco para el activo */
+    color: #ffffff;
+}
+
+/* Efecto hover para el nombre de la marca (navbar-brand) */
+.custom-navbar .navbar-brand {
+    padding: 0.3rem 0.8rem; /* Añade un poco de padding para que el fondo se vea */
+    border-radius: 5px;    /* Mismos bordes redondeados que los links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Misma transición suave */
+    /* Asegúrate de que el color original sea el deseado, por ejemplo: */
+    /* color: #ffffff; */
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .navbar-brand:focus {
+    color: #ffffff; /* O el color que prefieras al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.1); /* Un fondo muy sutil, menos intenso que los links */
+    text-decoration: none; /* Quita cualquier subrayado */
+}
+
+
 /* Estilo de las tarjetas */
 .card {
     height: 100%;

@@ -29,19 +29,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item <?= (uri_string() == '') ? 'active' : '' ?>">
                             <a class="nav-link" href="<?= site_url('/') ?>">Inicio</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?= (uri_string() == 'quienes-somos') ? 'active' : '' ?>">
                             <a class="nav-link" href="<?= site_url('/quienes-somos') ?>">Quiénes Somos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?= (uri_string() == 'comercializacion') ? 'active' : '' ?>">
                             <a class="nav-link" href="<?= site_url('/comercializacion') ?>">Comercialización</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?= (uri_string() == 'contacto') ? 'active' : '' ?>">
                             <a class="nav-link" href="<?= site_url('/contacto') ?>">Contacto</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?= (uri_string() == 'terminos-y-usos') ? 'active' : '' ?>">
                             <a class="nav-link" href="<?= site_url('/terminos-y-usos') ?>">Términos y Usos</a>
                         </li>
                     </ul>
