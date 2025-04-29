@@ -4,7 +4,7 @@
 
 <?= $this->section('content') ?>
 <div class="container py-4">
-    <h1 class="mb-5 text-center" style="color: #2cbe34;">Quiénes Somos</h1>
+    <h1 class="mb-5 text-center" style="color: #2cbe34;">Quienes Somos</h1>
 
     <div class="row mb-5">
         <div class="col-md-10 offset-md-1">
@@ -12,13 +12,16 @@
             <p class="lead">En <strong>Pacú Iberá</strong>, nuestro objetivo principal es llevar a tu mesa pescados
                 frescos de la más alta calidad, directamente desde las aguas del Iberá.</p>
             <p>Con más de 10 años de experiencia, perfeccionamos nuestras prácticas combinando tecnología e innovación
-                con saberes tradicionales. No solo criamos pacú: también <strong>preservamos el hábitat
+                con saberes tradicionales. No sólo criamos pacú, también <strong>preservamos el hábitat
                     natural</strong>, evitando la sobreexplotación de nuestros ríos.</p>
             <p>Nuestra trayectoria se basa en la confianza de nuestros clientes y en nuestro compromiso con la calidad y
                 la frescura de cada producto que ofrecemos.</p>
-            <p>Tambien hacemos énfasis en los múltiples beneficios que aporta consumir carne de pescado, como el pacú,
-                que aporta <strong>proteínas de alta calidad, omega-3 y bajo contenido graso</strong>, ideal para una
-                alimentación saludable y consciente.</p>
+            <p>También destacamos los múltiples beneficios que aporta esta carne a la dieta, como proteínas de alto
+                valor biológico, es decir, que <strong>  contiene todos los aminoácidos esenciales que el cuerpo no puede producir
+                por sí solo.</strong>  Tambien aporta minerales como el hierro, potasio o fósforo, y vitaminas como la D o
+                algunas del complejo B. Además, su contenido graso es moderado,<strong>  con presencia de Omega 3 y predominio de
+                grasas saludables "saturadas"</strong> , lo que la convierte en una alternativa ideal para quienes buscan una
+                dieta más consciente y nutritiva.</p>
         </div>
     </div>
 
